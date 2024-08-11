@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 // Define public routes
 const isPublicRoute = createRouteMatcher([
   '/',
+  '/api/events/:id',
   '/events/webhook/clerk',
   '/api/webhook/stripe',
   '/api/uploadthing',
@@ -18,6 +19,7 @@ export default clerkMiddleware((auth, req: NextRequest) => {
   // For protected routes, continue with Clerk's default behavior
   return NextResponse.next(); // Alternatively, handle auth logic here if needed
 });
+// export default clerkMiddleware();
 
 export const config = {
   matcher: [
