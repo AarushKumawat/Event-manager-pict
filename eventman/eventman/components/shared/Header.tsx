@@ -3,7 +3,7 @@
 import { SignedIn, SignedOut, UserButton, useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 import React from 'react';
-import { Button } from '../ui/button';
+
 import Image from 'next/image';
 import NavItems from './NavItems';
 import MobileNav from './MobileNav';
