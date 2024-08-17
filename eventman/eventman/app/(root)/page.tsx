@@ -25,9 +25,9 @@ export default function Home() {
       
 
     </section>
-    <section id = "events" className = "wrapper my-8 flex flex-col gap-8 md:gap-12 ">
-      <h2 className = "h2-bold ">Trusted by <br/> all</h2>
-      <div className = "flex w-full flex-col gap-5 md:flex-row">
+    <section id = "events" className = "wrapper my-8 flex flex-col  md:gap-12  bg-contain py-5 md:py-10">
+      <h2 className = "h2-bold ml-5 ">Trusted by all</h2>
+      <div className = "flex w-full flex-col gap-5 md:flex-row ml-5">
         Search 
         Category filter
       </div>
