@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "query-string": "^9.1.0",
+    "svix": "^1.30.0"
+  }
 }
